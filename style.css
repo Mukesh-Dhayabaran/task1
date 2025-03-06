@@ -1,18 +1,14 @@
-@font-face {
-    font-family: 'Gilroy';
-    src: url('fonts/Gilroy-Regular.ttf') format('truetype'),
-         url('fonts/Gilroy-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 *{
     margin: 0%;
 }
 
 nav{
+    display: flex;
+    align-items: center;
+    justify-content:stretch;
+    column-gap: 120px;
     padding: 25px ;
+    padding-left: 65px;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -20,8 +16,34 @@ nav{
     background-color: #FFFFFF;
     position: fixed;
     z-index: 1;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    
 }
 
+.fynro{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.fynro p{
+    color: #383E54;
+    padding-left: 5px;
+}
+
+.navigation{
+    margin-left: 40px;
+    font-size: 16px;
+    color: #555555;
+    display: flex;
+    column-gap: 0px;
+}
+
+.buttons{
+    display: flex;
+    column-gap: 20px;
+
+}
 
 li{
     display: inline;
@@ -80,7 +102,7 @@ button{
 #get{
     color: white;
     background-color: #5978FF;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 #get:hover{
@@ -100,14 +122,14 @@ button{
 .splash{
     position: absolute;
     top: 190px;
-    left: 138px;
+    left: 115px;
     margin: 0%;
 }
 
 .container1{
     display: inline-block;
     margin-top: 150px;
-    margin-left: 110.73px;
+    margin-left: 80px;
 }
 
 .text{
