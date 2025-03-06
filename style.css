@@ -115,6 +115,8 @@ button{
     font-size: 18px;
     margin-top: 30px;   
     letter-spacing: 1px;
+    padding-right: 60px;
+    line-height: 25px;
 }
 
 h1{
@@ -184,8 +186,8 @@ h1{
     font-weight: 600;
     position: absolute;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    bottom: 1px;
-    left: 110px;
+    bottom: 20px;
+    left: 120px;
     border-radius: 10px;
     padding: 20px 24px;
     background-color: white;
@@ -275,7 +277,6 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     row-gap: 100px;
-    column-gap: 50px;
     font-family: "Gilroy-SemiBold",sans-serif;
     margin-top: 70px;
     padding: 0px 100px;
@@ -297,9 +298,12 @@ h1{
 }
 
 .cards p{
+    color: #555555;
     font-size: 16px;
     text-align: left;
     margin-top: 15px;
+    padding-right: 120px;
+    line-height: 24px;
 }
 
 #container5{
