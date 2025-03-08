@@ -34,7 +34,7 @@ nav{
     color: #555555;
     position: fixed;
     border: 1px solid #EBEBEB;
-    z-index: 2;
+    z-index: 3;
     /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
     
 }
@@ -96,7 +96,8 @@ color: #F8971F;
     background-color: #5978FF;
     padding: 10px 22px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #5978FF;
+    /* border: none; */
 }
 
 #get:hover{
@@ -107,12 +108,12 @@ color: #F8971F;
 }
 
 #content{
-    background: linear-gradient(to right,#F8F4F3,#F7F9FF);  
+    background: linear-gradient(to right,#F8F4F3,#F7F9FF);
     display: flex;
     align-items: center;
     justify-content: center;
     /* gap: 20px; */
-    padding: 180px 132px;
+    padding: 170px 132px 59px 132px;
 }
 
 .splash{
@@ -167,13 +168,15 @@ color: #F8971F;
     background-color: #5978FF;
     padding: 17px 36px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #5978FF;
+    /* border: none; */
 }
 
 .explore:hover{
     cursor: pointer;
     color: #5978FF;
     background-color: white;
+    border: 2px solid #5978FF;
 } 
 
 
@@ -184,11 +187,12 @@ color: #F8971F;
     font-weight: 600;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     align-items: center;
     position: absolute;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     bottom: 1%;
-    left: 30px;
+    left: 35px;
     border-radius: 10px;
     padding: 20px 24px;
     background-color: white;
@@ -202,7 +206,6 @@ color: #F8971F;
 
 .positive{
     background-color: white;
-    margin-top: 10px;
 }
 
 .stars{
@@ -260,7 +263,7 @@ color: #F8971F;
 .dots{
     margin: 0%;
     position: absolute;
-    top: 1730px;
+    top: 1580px;
 }
 
 #container4{
@@ -271,7 +274,7 @@ color: #F8971F;
     background-color: #F7F9FF;
     padding-top: 120px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .header4{
@@ -322,7 +325,7 @@ color: #F8971F;
     background-color: #F7F9FF;
     padding: 100px 20px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 #container5 h2{
@@ -400,6 +403,7 @@ margin-left: 90px;
     display: flex;
     align-items: center;
     gap: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -412,8 +416,7 @@ margin-left: 90px;
 .credits{
     display: flex;
     align-items: center;
-    gap: 100px;
-    margin-top: 15px;
+    gap: 95px;
     background-color: #F7F9FF;
     border-radius: 12px;
     padding: 10px;
@@ -429,7 +432,7 @@ margin-left: 90px;
 .credits div p{
     font-size: 16px;
     font-family: 'Gilroy-SemiBold';
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 .book{
@@ -437,13 +440,14 @@ margin-left: 90px;
     background-color: #5978FF;
     border-radius: 10px;
     padding: 10px 20px;
-    border: none;
+    border: 2px solid #5978FF;
+    /* border: none; */
 }
 
 .book:hover{
+    cursor: pointer;
     color: #5978FF;
     background-color: white;
-    cursor: pointer;
     border: 2px solid #5978FF;
 }
 
@@ -477,8 +481,9 @@ margin-left: 90px;
 
 .fly{
     position: absolute; 
-    top: 3285px;
+    top: 3110px;
     left: 60px;
+    z-index: 1;
 }
 
 #container6{
